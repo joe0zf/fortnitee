@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.top-menu-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2a2a2a;
+}
+.nav-container{
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+
+.nav-logos{
+    display:  flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 25%;
+}
+.epic-log, .fortnite-logo{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.epic-logo{
+    width: 2em;
+    height: auto;
+}
+.fortnite-logo{
+    width: 6em;
+    height: auto;
+}
+.nav-menu{
+    width: 100%;
+}
+.nav-menu ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.nav-menu ul li{
+    list-style: none;
+}
+.nav-menu ul li a{
+    color: #ccc;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+.access-container{
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-icon,.languaje-icon{
+    width: 3em;
+    height: 3em;
+    background-color: transparent;
+    border:0px;
+}
+.user-icon{
+    color:#ccc;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: 0px;
+}
+.user-icon img{
+    width: 1.5em;
+}
+.download-btn{
+    background-color:#ff0;
+    font-size: 0.6em;
+    height: 100%;
+    width: 13em;
+    border:0px;
+}
+
+/*Estilos para el header*/
+
+.slider-container{
+    width: 100%;
+    height: 90vh;
+    background-image: url('../img/slide.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.first-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+}
+.first-title div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fortnite-text{
+    width: 20em;
+}
+.instintos-text{
+    width: 25em;
+}
+.capitulo-text{
+    font-size: 1.6em;
+    font-weight: bold;
+    font-style: italic;
+}
+.second-title{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second-title h1{
+    font-style: italic;
+    font-weight: bold;
+    background-color: rgb(255, 230, 0);
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 20px 0px 20px 0px;
+}
